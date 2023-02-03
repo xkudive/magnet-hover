@@ -543,7 +543,7 @@ section {
 	}
 }
 
-.h1 h1:last-child{
+.h1 h1 span:last-child{
   background: linear-gradient(to right, #7474BF, #348AC7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
