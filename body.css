@@ -542,3 +542,9 @@ section {
 		cursor: default;
 	}
 }
+
+.h1 h1 {
+  background: -webkit-linear-gradient(#7474BF, #348AC7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
