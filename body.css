@@ -454,7 +454,10 @@ section {
 }
 .h1 h1 span:nth-child(4) {
 	animation: heading_anim 1500ms cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
-	animation-delay: 1000ms ;  
+	animation-delay: 1000ms;
+        background: linear-gradient(to right, #7474BF, #348AC7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 .h1 p {
@@ -541,10 +544,4 @@ section {
 	.hover-me {
 		cursor: default;
 	}
-}
-
-.h1 h1 span:last-child{
-  background: linear-gradient(to right, #7474BF, #348AC7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
