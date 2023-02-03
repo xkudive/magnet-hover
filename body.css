@@ -455,7 +455,7 @@ section {
 .h1 h1 span:nth-child(4) {
 	animation: heading_anim 1500ms cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 	animation-delay: 1000ms;
-        background: linear-gradient(to right, #7474BF, #348AC7);
+        background: linear-gradient(to right, #1D976C, #93F9B9);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
